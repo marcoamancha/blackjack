@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: conic-gradient(
+		from 45deg,
+		#030537 0,
+		#020681 90deg,
+		#000337 90deg,
+		#000337 180deg,
+		#23265a 180deg,
+		#24264b 270deg,
+		#104c77 270deg,
+		#104063 360deg
+	);
+	background-size: 1em 1em;
+	height: 90vh;
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Manjari', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background: rgba(21, 42, 49, 0.994);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+.menu {
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 20px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu li a:hover{
+   padding: 5px 10px;
+   background: #fff;
+   color: #000;
+   border-radius: 15px;
+}
+.container {
+    border: blanchedalmond 2px solid;
+    background: rgba(80, 2, 27, 0.563);
+    width: 80%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+.cartas p{
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+.cartas .divCartas img{
+    position: relative;
+    width: 125px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+footer {
+    border: solid 1px blanchedalmond;
+    background: #1d0a21;
+    width: 80%;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.btnNuevo {
+    padding: 8px;
+    background: rgb(74, 32, 172);
+    color: #ffffff;
+}
+.btnPedir {
+    padding: 8px;
+    background: rgb(74, 32, 172);
+    color: #ffffff;
+    margin: 0 20px;
+}
+.btnDetener {
+    padding: 8px;
+    background: rgb(202, 40, 34);
+    color: #ffffff;
+}
+.btnDetener:disabled {
+    background: rgb(11, 186, 221);
+}
+.btnPedir:disabled {
+    background: rgb(11, 186, 221);
+}
+
+small {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.6rem;
+    padding: 2px;
+    margin: 2px;
+    background: rgb(41, 61, 61);
+    color: rgb(133, 235, 17);
+    border: 1px rgb(124, 75, 75) solid;
+    border-radius: 5px;
+}

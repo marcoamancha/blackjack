@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manjari:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manjari:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">BLACKJACK</div>
+            <ul class="menu">                
+                <li id="info"><a href="#">Info</a></li>
+                <li><a href="">Nosotros</a></li>
+            </ul>               
+        </nav>
+    </header>
+    <div class="container">
+       <div class="cartas">
+           <p>Puntaje Jugador <small>0</small></p>
+        <div id="cartas-jugador" class="divCartas">
+            <!-- <img src="assets/img/10C.png" alt=""> -->
+        </div>
+       </div>
+        <div class="cartas">
+            <p>Puntaje Computadora <small>0</small></p>
+            <div id="cartas-computadora" class="divCartas">
+                <!-- <img src="assets/img/10H.png" alt=""> -->
+            </div>
+        </div>        
+    </div>
+    <footer>
+        <div class="botones">
+            <button id="btnNuevo" class="btnNuevo"><i class="fas fa-sync-alt"></i> Nuevo juego</button>
+            <button id="btnPedir" class="btnPedir"><i class="fas fa-dice-six"></i> Pedir carta</button>
+            <button id="btnDetener" class="btnDetener"><i class="fas fa-stop-circle"></i> Detener</button> 
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/underscode-min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
